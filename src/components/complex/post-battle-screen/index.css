@@ -6,11 +6,11 @@
 }
 
 .PostScreenResults {
-    margin: auto;
     display: flex;
-    gap: 150px;
+    width: 100%;
     height: 100vh;
     overflow-y: scroll;
+    justify-content: space-around;
 
     &::-webkit-scrollbar {
         width: 10px;
