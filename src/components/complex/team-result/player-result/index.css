@@ -1,0 +1,8 @@
+.PlayerResultWrapper {
+  display: flex;
+}
+
+.StatusImage {
+  height: 50px;
+  width: 50px;
+}

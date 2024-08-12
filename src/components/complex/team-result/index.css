@@ -1,0 +1,9 @@
+.TeamTableWrapper {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.TeamTable {
+  height: 100vh;
+  overflow-y: scroll;
+}

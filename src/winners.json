@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "player1",
+    "score": 27,
+    "alive": true
+  },
+  {
+    "id": 2,
+    "name": "player2",
+    "score": 83,
+    "alive": false
+  },
+  {
+    "id": 3,
+    "name": "player3",
+    "score": 78,
+    "alive": true
+  },
+  {
+    "id": 4,
+    "name": "player4",
+    "score": 82,
+    "alive": false
+  },
+  {
+    "id": 5,
+    "name": "player5",
+    "score": 61,
+    "alive": false
+  },
+  {
+    "id": 6,
+    "name": "player6",
+    "score": 46,
+    "alive": true
+  },
+  {
+    "id": 7,
+    "name": "player7",
+    "score": 32,
+    "alive": false
+  },
+  {
+    "id": 8,
+    "name": "player8",
+    "score": 18,
+    "alive": true
+  },
+  {
+    "id": 9,
+    "name": "player9",
+    "score": 16,
+    "alive": true
+  },
+  {
+    "id": 10,
+    "name": "player10",
+    "score": 15,
+    "alive": false
+  },
+  {
+    "id": 11,
+    "name": "player11",
+    "score": 54,
+    "alive": true
+  },
+  {
+    "id": 12,
+    "name": "player12",
+    "score": 90,
+    "alive": true
+  },
+  {
+    "id": 13,
+    "name": "player13",
+    "score": 80,
+    "alive": true
+  },
+  {
+    "id": 14,
+    "name": "player14",
+    "score": 6,
+    "alive": false
+  },
+  {
+    "id": 15,
+    "name": "player15",
+    "score": 64,
+    "alive": true
+  },
+  {
+    "id": 16,
+    "name": "player16",
+    "score": 31,
+    "alive": false
+  },
+  {
+    "id": 17,
+    "name": "player17",
+    "score": 100,
+    "alive": true
+  },
+  {
+    "id": 18,
+    "name": "player18",
+    "score": 84,
+    "alive": true
+  },
+  {
+    "id": 19,
+    "name": "player19",
+    "score": 3,
+    "alive": true
+  },
+  {
+    "id": 20,
+    "name": "player20",
+    "score": 39,
+    "alive": true
+  },
+  {
+    "id": 21,
+    "name": "player21",
+    "score": 96,
+    "alive": true
+  },
+  {
+    "id": 22,
+    "name": "player22",
+    "score": 2,
+    "alive": false
+  },
+  {
+    "id": 23,
+    "name": "player23",
+    "score": 97,
+    "alive": false
+  },
+  {
+    "id": 24,
+    "name": "player24",
+    "score": 75,
+    "alive": false
+  },
+  {
+    "id": 25,
+    "name": "player25",
+    "score": 17,
+    "alive": true
+  },
+  {
+    "id": 26,
+    "name": "player26",
+    "score": 8,
+    "alive": true
+  },
+  {
+    "id": 27,
+    "name": "player27",
+    "score": 74,
+    "alive": true
+  },
+  {
+    "id": 28,
+    "name": "player28",
+    "score": 95,
+    "alive": false
+  },
+  {
+    "id": 29,
+    "name": "player29",
+    "score": 18,
+    "alive": true
+  },
+  {
+    "id": 30,
+    "name": "player30",
+    "score": 49,
+    "alive": false
+  },
+  {
+    "id": 31,
+    "name": "player31",
+    "score": 79,
+    "alive": false
+  },
+  {
+    "id": 32,
+    "name": "player32",
+    "score": 75,
+    "alive": true
+  },
+  {
+    "id": 33,
+    "name": "player33",
+    "score": 35,
+    "alive": true
+  },
+  {
+    "id": 34,
+    "name": "player34",
+    "score": 69,
+    "alive": true
+  },
+  {
+    "id": 35,
+    "name": "player35",
+    "score": 71,
+    "alive": false
+  },
+  {
+    "id": 36,
+    "name": "player36",
+    "score": 71,
+    "alive": false
+  },
+  {
+    "id": 37,
+    "name": "player37",
+    "score": 73,
+    "alive": true
+  },
+  {
+    "id": 38,
+    "name": "player38",
+    "score": 100,
+    "alive": true
+  },
+  {
+    "id": 39,
+    "name": "player39",
+    "score": 59,
+    "alive": false
+  },
+  {
+    "id": 40,
+    "name": "player40",
+    "score": 46,
+    "alive": false
+  },
+  {
+    "id": 41,
+    "name": "player41",
+    "score": 51,
+    "alive": true
+  },
+  {
+    "id": 42,
+    "name": "player42",
+    "score": 81,
+    "alive": true
+  },
+  {
+    "id": 43,
+    "name": "player43",
+    "score": 19,
+    "alive": false
+  },
+  {
+    "id": 44,
+    "name": "player44",
+    "score": 50,
+    "alive": true
+  },
+  {
+    "id": 45,
+    "name": "player45",
+    "score": 36,
+    "alive": false
+  },
+  {
+    "id": 46,
+    "name": "player46",
+    "score": 99,
+    "alive": false
+  },
+  {
+    "id": 47,
+    "name": "player47",
+    "score": 82,
+    "alive": false
+  },
+  {
+    "id": 48,
+    "name": "player48",
+    "score": 44,
+    "alive": true
+  },
+  {
+    "id": 49,
+    "name": "player49",
+    "score": 7,
+    "alive": true
+  },
+  {
+    "id": 50,
+    "name": "player50",
+    "score": 45,
+    "alive": false
+  }
+]
