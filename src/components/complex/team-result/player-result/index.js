@@ -2,15 +2,32 @@ import './index.css';
 import ButttonIcon from "../../../atomic/button-icon";
 import skull from '../../../../assets/skull.jpg'
 import leaf from '../../../../assets/leaf.jpg'
+import { Tooltip as ReactTooltip } from "react-tooltip";
+import TooltipContent from "../tooltip-content";
 
-function PlayerResult({name, score, status}) {
+function PlayerResult({id, name, score, status, kills, deaths, addFriend}) {
   return (
-    <tr>
-      <td>{name}</td>
-      <td><img src={status ? leaf : skull} className='StatusImage' alt='status image'/></td>
-      <td>{score}</td>
-      <td><ButttonIcon symbol="?" title='about player'/></td>
-      <td><ButttonIcon symbol="+" title='add to friends'/></td>
+    <tr className='PlayerResultRow'>
+      <td className='PlayerResultCell'>
+        <div className='HighLighter'>{name}</div>
+      </td>
+      <td>
+        <img src={status ? leaf : skull} className='StatusImage' alt='status image'/>
+      </td>
+      <td className='PlayerResultCell'>
+        <div className='HighLighter'>{score}</div>
+      </td>
+      <td className='PlayerResultCell'>
+        <span className='TooltipIcon' data-tooltip-id={id}>?</span>
+        <ReactTooltip
+          id={`${id}`}
+          place="bottom"
+          content={<TooltipContent kills={kills} deaths={deaths}/>}
+        />
+      </td>
+      <td className='PlayerResultCell'>
+        <ButttonIcon symbol="+" title='add to friends' playerId={id} onClickCallback={addFriend}/>
+      </td>
     </tr>
   );
 }

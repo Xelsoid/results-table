@@ -2,11 +2,11 @@ import './index.css';
 
 function PlayerResultHeader() {
   return (
-    <tr>
+    <tr className='PlayerResultHeaderRow'>
       <th>AKA</th>
       <th>D/A</th>
       <th>Score</th>
-      {/*<th colspan={2}></th>*/}
+      <th colSpan={2}></th>
     </tr>
   );
 }

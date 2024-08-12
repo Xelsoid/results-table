@@ -4,15 +4,3 @@
   display: flex;
   margin: auto;
 }
-
-tr {
-  border: solid red 1px;
-}
-
-th {
-  border: solid green 1px;
-}
-
-td {
-  border: solid red 1px;
-}

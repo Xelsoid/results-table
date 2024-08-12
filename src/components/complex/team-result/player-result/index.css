@@ -1,8 +1,40 @@
-.PlayerResultWrapper {
-  display: flex;
-}
-
 .StatusImage {
   height: 50px;
   width: 50px;
+}
+
+.PlayerResultRow {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.PlayerResultRow:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.PlayerResultCell {
+  padding: 16px;
+  text-overflow: clip;
+}
+
+.TooltipIcon {
+    cursor: pointer;
+    width: 8px;
+    padding: 1px 6px;
+    height: 14px;
+    border: solid 2px black;
+    border-radius: 50%;
+    display: block;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.HighLighter {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    padding: 0 8px 4px;
+    display: block;
 }
