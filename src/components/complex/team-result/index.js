@@ -12,7 +12,6 @@ const sortByScore = (a, b) => {
 }
 
 function TeamResult({results, globalScore}) {
-  console.log(results)
   const [teamResults] = useState(results.sort(sortByScore));
 
   if(results.length === 0) {
