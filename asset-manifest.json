@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/results-table/static/css/main.3e248eed.css",
+    "main.js": "/results-table/static/js/main.134232cf.js",
+    "static/media/post-battle-screen-background.jpg": "/results-table/static/media/post-battle-screen-background.fea1a74bb5c1b9368593.jpg",
+    "index.html": "/results-table/index.html",
+    "main.3e248eed.css.map": "/results-table/static/css/main.3e248eed.css.map",
+    "main.134232cf.js.map": "/results-table/static/js/main.134232cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e248eed.css",
+    "static/js/main.134232cf.js"
+  ]
+}
