@@ -1,12 +1,9 @@
 import './index.css';
 const noop = () => {};
 
-function ButtonIcon({symbol, title, playerId, onClickCallback = noop}) {
-  const onClickHandler = () => {
-    onClickCallback(playerId);
-  }
+function ButtonIcon({symbol, title, onClickCallback = noop}) {
   return (
-    <button className="ButtonIconWrapper" title={title} onClick={onClickHandler}>
+    <button className="ButtonIconWrapper" title={title} onClick={onClickCallback}>
       {symbol}
     </button>
   );

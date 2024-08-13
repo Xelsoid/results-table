@@ -20,9 +20,9 @@
 
 .TooltipIcon {
     cursor: pointer;
-    width: 8px;
+    width: 22px;
     padding: 1px 6px;
-    height: 14px;
+    height: 20px;
     border: solid 2px black;
     border-radius: 50%;
     display: block;

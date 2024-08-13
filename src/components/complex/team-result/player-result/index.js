@@ -6,6 +6,9 @@ import { Tooltip as ReactTooltip } from "react-tooltip";
 import TooltipContent from "../tooltip-content";
 
 function PlayerResult({id, name, score, status, kills, deaths, addFriend}) {
+  const addFriendHandler = () => {
+    addFriend(id);
+  }
   return (
     <tr className='PlayerResultRow'>
       <td className='PlayerResultCell'>
@@ -18,7 +21,7 @@ function PlayerResult({id, name, score, status, kills, deaths, addFriend}) {
         <div className='HighLighter'>{score}</div>
       </td>
       <td className='PlayerResultCell'>
-        <span className='TooltipIcon' data-tooltip-id={id}>?</span>
+        <button className='TooltipIcon' data-tooltip-id={id}>?</button>
         <ReactTooltip
           id={`${id}`}
           place="bottom"
@@ -26,7 +29,7 @@ function PlayerResult({id, name, score, status, kills, deaths, addFriend}) {
         />
       </td>
       <td className='PlayerResultCell'>
-        <ButttonIcon symbol="+" title='add to friends' playerId={id} onClickCallback={addFriend}/>
+        <ButttonIcon symbol="+" title='add to friends' onClickCallback={addFriendHandler}/>
       </td>
     </tr>
   );
